@@ -1,4 +1,8 @@
+Esse projeto tem o intuito de retornar todos os repositórios de um criador no github.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Esse projeto foi criado com React, Javascript, Html e CSS
 
 ## Available Scripts
 
