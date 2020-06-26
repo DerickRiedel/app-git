@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;1,400&display=swap');
+@font-face{
+    font-family: 'Nunito', sans-serif;
+    src: url();
+}
+.myList {
+    width: 55%;
+    padding: 12px;
+    display: flex;
+    margin-top: 5px;
+    background-color: rgba(218, 218, 218, 0.568);
+    color: black;
+    border-left: 7px solid rgb(101, 199, 238);
+    border-right: 4px solid rgba(199, 199, 199, 0.541);
+}
+
+.listItems {
+    margin-right: 20px;
+    width: 50%;
+    border-right: 5px solid rgb(255, 166, 0);
+    background-color: rgba(218, 218, 218, 0.568);
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 125%;
+}
+
+.itemDesc {
+    margin-right: 20px;
+    width: 60%;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 125%;
+}
+
+.removeButtons {
+    width: 25%;
+    margin-left: 10px;
+    font-size: 90%;
+    color: rgb(28, 36, 43);
+    font-family: 'Nunito', sans-serif;
+    border: none;
+    background-color: rgba(255, 0, 0, 0.493);
+}
+
+.myButton {
+    margin: 5px;
+    width: 17%;
+    height: 40px;
+    font-size: 120%;
+    background-color: rgb(199, 220, 233);
+    color: rgb(58, 72, 82);
+    font-family: 'Nunito', sans-serif;
+    border: 2px solid rgb(185, 196, 206);
+    cursor: pointer;
+}
+
+.myButton:hover {
+    color: aquamarine;
+}
+
+.myForm {
+    margin: 40px;
+}
+
+.myTitle {
+    margin: 40px;
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(199, 220, 233);
+    width: 20%;
+    padding: 10px;
+    border-left: 10px solid rgb(101, 199, 238);;
+}
+
+.myInputText {
+    margin: 5px;
+    width: 17%;
+    height: 40px;
+    font-size: 120%;
+    background-color: rgb(232, 241, 247);
+    border: none;
+    color: rgb(58, 72, 82);
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+
+

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+body{
+    background-color: rgb(184, 205, 211);
+}
+
+.listItems {
+    display: grid;
+    background-color: rgb(238, 255, 176);
+    width: 400px;
+    padding: 10px;
+    margin: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    box-shadow: 2px 2px 5px 2px #616161
+}
+
+.itemLink {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin-left: 5px;
+    background-color: rgb(199, 220, 233);
+    color: rgb(58, 72, 82);
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    box-shadow: 2px 2px 5px 2px #747474;
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+
+
+.itemDesc {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 5px;
+    margin-bottom: 5px;
+    background-color: rgb(221, 220, 149);
+    box-shadow: 0px 0px 20px 0px rgb(221, 220, 149);
+}
+
+.itemName {
+    width: 80%;
+    height: 30px;
+    font-size: x-large;
+    padding: 5px 10px 7px;
+    border-left: 5px solid rgb(73, 178, 248);
+    background-color: rgb(194, 208, 212);
+    color: rgb(24, 68, 97);
+    box-shadow: 2px 2px 5px 2px #858585
+}
+
+.myList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 3000px;
+    padding: 10px 3%;
+}
+
+.myButton {
+    margin: 5px;
+    width: 17%;
+    height: 40px;
+    font-size: 120%;
+    background-color: rgb(199, 220, 233);
+    color: rgb(58, 72, 82);
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    box-shadow: 2px 2px 5px 2px #616161;
+    cursor: pointer;
+    transition: 0.1s;
+    text-decoration: none;
+}
+
+.myButton:hover{
+    background-color: rgb(73, 178, 248);
+    color: rgb(255, 255, 255);
+}
+
+.itemLink:hover{
+    background-color: rgb(73, 178, 248);
+    color: rgb(255, 255, 255);
+}
+
+.myForm {
+    padding: 10px 3%;
+}
+
+.myInputText {
+    margin: 5px;
+    width: 17%;
+    height: 40px;
+    font-size: 120%;
+    background-color: rgb(232, 241, 247);
+    border: none;
+    color: rgb(58, 72, 82);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
